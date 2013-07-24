@@ -1,0 +1,94 @@
+@import "components/bootstrap/less/variables";
+@import "components/bootstrap/less/mixins";
+@import "components/bootstrap/less/layouts";
+@import "components/bootstrap/less/navbar";
+@import "components/bootstrap/less/navs";
+@import "components/bootstrap/less/responsive";
+
+body, html, #wrapper {
+  height: 100%;
+}
+
+#body, #body-content, #wrap {
+  min-height: 100%;
+}
+
+#wrap {
+  margin-bottom: -@footer-height;
+}
+
+// Disable ETs padding
+#body {
+  padding-top: 0 !important;
+}
+
+#ftr {
+  padding-bottom: @footer-height;
+}
+
+footer {
+  height: @footer-height;
+}
+
+#body:before {
+  display: block;
+  content: " ";
+  height: @header-height;
+}
+
+// TODO: responsive layout for header
+header, footer {
+  line-height: @baseLineHeight;
+  font-size: 16px;
+
+  .brand, .nav, .span2 {
+    font-family: @baseFontFamily;
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  p, ul, pre {
+    line-height: inherit;
+  }
+
+  #hdr-inner {
+    font-size: 13px;
+    padding: 0;
+
+    #backButton {
+      margin: 0;
+      margin-top: 9px;
+    }
+
+    #userMenu, #mainMenu {
+      margin: 0;
+      margin-top: 1px;
+    }
+
+    ul {
+      padding: 10px 0;
+    }
+
+    .button {
+      color: @dark !important;
+      background: url(button.png) repeat-x scroll 0 0 #E0E0E0;
+    }
+
+    .avatar.thumb {
+      margin-top: -2px;
+      margin-bottom: 0;
+    }
+
+  }
+}
+
+@import "components/pyload-common/styles/fonts";
+@import "components/pyload-common/styles/basic-layout";
+
+@ResourcePath: "./components";
