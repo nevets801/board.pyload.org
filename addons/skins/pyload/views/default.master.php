@@ -39,14 +39,14 @@ if (!defined("IN_ESOTALK")) exit;
         <div class="container-fluid">
             <div class="brand">
                 <div class="logo"></div>
-                <a class="title" href="http://pyload.org">pyLoad</a>
+                <a class="title" href="http://betasite.pyload.org">pyLoad</a>
             </div>
             <div class="nav-collapse collapse">
                 <ul class="nav">
-                    <li><a href="/downloads">Download</a></li>
-                    <li><a href="/news">News</a></li>
-                    <li><a href="/wiki">Wiki</a></li>
-                    <li><a href="/development">Development</a></li>
+                    <li><a href="http://betasite.pyload.org/downloads">Download</a></li>
+                    <li><a href="http://betasite.pyload.org/news">News</a></li>
+                    <li><a href="http://betasite.pyload.org/wiki">Wiki</a></li>
+                    <li><a href="http://betasite.pyload.org/development">Development</a></li>
                     <li class="active"><a href="/">Board</a></li>
                 </ul>
             </div>
