@@ -36,6 +36,7 @@ public function handler_init($sender)
 	$sender->addCSSFile("core/skin/font-awesome.css", true);
 	$sender->addCSSFile($this->getResource("styles.css"), true);
 	$sender->addCSSFile($this->getResource("main.css"), true);
+    $sender->addToHead("<link rel='shortcut icon' href='".getWebPath($this->getResource("favicon.ico"))."'>");
 
 	// If we're viewing from a mobile browser, add the mobile CSS and change the master view.
 	if ($isMobile = isMobileBrowser()) {
