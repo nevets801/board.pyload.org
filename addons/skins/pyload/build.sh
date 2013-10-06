@@ -9,3 +9,4 @@ cp -r components/pyload-common/images components
 
 lessc -x -rp="./" main.less main.css
 cp components/pyload-common/images/icon-big.png ../preview.jpg
+cp components/pyload-common/favicon.ico .
