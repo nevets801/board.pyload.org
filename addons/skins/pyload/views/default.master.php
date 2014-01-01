@@ -98,7 +98,7 @@ if (!defined("IN_ESOTALK")) exit;
         <div class="row-fluid">
             <div class="span2 offset1">
                 <div class="copyright">
-                    © 2008-2013<br>
+                    © 2008-2014<br>
                     <a href="http://pyload.org/" target="_blank">The pyLoad Team</a><br>
                 </div>
             </div>
